@@ -1,0 +1,38 @@
+body,
+html,
+* {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex
+    
+}
+
+.card {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 2.2rem;
+    margin: .5rem, 0;
+    text-transform: capitalize;
+}
+
+.card-img {
+    width: 100%;
+    font-size: 12px;
+}
+
+.card-price {
+    font-size: 1.6rem;
+}
