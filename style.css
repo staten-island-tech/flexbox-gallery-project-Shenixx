@@ -7,6 +7,36 @@ html,
     padding: 0;
 }
 
+.background--custom {
+    background: linear-gradient(90deg, #FBC93D, #6CC0E5, #FFFB4F);
+    background-size: 300% 300%;
+    animation: gradient 6s alternate infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+.head {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 70px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 50vw;
+    height: 7vw;
+}
+
 .container{
     display: flex
     
@@ -29,10 +59,12 @@ html,
 }
 
 .card-img {
-    width: 100%;
+    margin: auto;
+    width: 40%;
     font-size: 12px;
 }
 
-.card-price {
+.card-detail {
     font-size: 1.6rem;
 }
+
