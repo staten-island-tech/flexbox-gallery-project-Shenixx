@@ -1,55 +1,61 @@
 body,
 html,
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 3rem;
-    margin: 0 auto;
-    filter: drop-shadow(0 20px 13px rbg(0 0 0 / 0.03)) drop-shadow(0 12px 8px rgb(0 0 0 / 0.079));
+body {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/025/669/906/large/dino-rhinosaur-done-wp-pink-with-pic.jpg?1586544608);
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  margin: 0 auto;
 }
 
 .card {
-    width: 30%;
-    border: 1px solid rgb(223, 8, 8);
-    height: 40%;
-    display: flex;
-    justify-content: space-around;
+  width: 30%;
+  background-color: rgb(0,0,0);
+  border: 1px solid rgb(255, 0, 0);
+  padding: 2%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1% auto;
 }
 
 .card-title {
-    font-size: 2.2rem;
-    margin: .5rem, 0;
-    text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  text-transform: capitalize;
 }
 
 .card-img {
-    width: 40%;
-    font-size: 12px;
+  width: 40%;
+  height: 40%;
+  align-items: center;
 }
 
 .card-detail {
-    font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
 }
 
 .head {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 70px;
-  border: 3px solid rgb(0, 0, 0);
-  background-color: #000000;
-  color: azure;
   width: 50%;
-  height: 11%;
-  opacity: 70%;
-  border-color: rgb(43, 43, 43);
+  height: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin: 2% auto;
+  font-size: 500%;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(115, 115, 115);
+  background-color: #000000;
 }
