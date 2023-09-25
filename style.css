@@ -33,7 +33,7 @@ body {
   margin: 1% auto;
   display: flex;
   justify-content: space-around;
-  filter: drop-shadow(0 20px 13px rbg(0 0 0 / 0.03)) drop-shadow(0 12px 8px rgb(0 0 0 / 0.079));
+  box-shadow: 10px 10px;
 }
 
 .card-title {
