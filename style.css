@@ -6,61 +6,22 @@ html,
     padding: 0;
 }
 
-.background--custom {
-    background: linear-gradient(90deg, #858585, #FF0000, #000000);
-    background-size: 300% 300%;
-    animation: gradient 4s alternate infinite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-  @keyframes gradient {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 100%;
-    }
-  }
-
-.head {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 70px;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: #000000;
-    color: azure;
-    width: 50%;
-    height: 10%;
-    opacity: 70%;
-    border-color: rgb(43, 43, 43);
-}
-
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
     flex-wrap: wrap;
     font-size: 3rem;
-    
+    margin: 0 auto;
+    filter: drop-shadow(0 20px 13px rbg(0 0 0 / 0.03)) drop-shadow(0 12px 8px rgb(0 0 0 / 0.079));
 }
 
 .card {
     width: 30%;
+    border: 1px solid rgb(223, 8, 8);
     height: 40%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
-    padding: 2rem;
-    border-radius: 2rem;
-    filter: drop-shadow(0 20px 13px rbg(0 0 0 / 0.03)) drop-shadow(0 12px 8px rgb(0 0 0 / 0.079));
 }
 
 .card-title {
@@ -70,7 +31,6 @@ html,
 }
 
 .card-img {
-    margin: auto;
     width: 40%;
     font-size: 12px;
 }
@@ -79,3 +39,17 @@ html,
     font-size: 1.6rem;
 }
 
+.head {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 70px;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #000000;
+  color: azure;
+  width: 50%;
+  height: 11%;
+  opacity: 70%;
+  border-color: rgb(43, 43, 43);
+}
