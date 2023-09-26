@@ -49,14 +49,9 @@ body {
 
 
 .card-detail {
-<<<<<<< Updated upstream
   color: rgb(255, 255, 255);
   font-size: 30%;
   align-items: end;
-=======
-    
-    font-size: 1.6rem;
->>>>>>> Stashed changes
 }
 
 .head {
