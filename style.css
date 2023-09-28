@@ -41,14 +41,33 @@ body {
 }
 
 .card:hover{
-  box-shadow: 0 5px 15px rgb(0, 0, 0);
+  box-shadow: 0 15px 25px rgb(0, 0, 0);
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
   background-color: rgb(0, 0, 0);
   transform: scale(1.08);
   transition: all ease-in .3s;
   font-size: 3.5rem;
+  animation: samiscool .5s;
 }
+
+@keyframes iamcooler{
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+@keyframes samiscool{
+    0%     {background-color:rgb(255, 22, 22);}
+    25%     {background-color:rgb(235, 0, 0);}
+    50.0%  {background-color:#ac0000;}
+    75.0%  {background-color:rgb(85, 0, 0);}
+    100.0%  {background-color:rgb(0, 0, 0);}
+}
+
 
 .head:hover{
   transform: scale(1.08);
@@ -101,4 +120,41 @@ body {
   color: rgb(0, 0, 0);
   border: 3px solid rgb(0, 0, 0);
   background-color: #ffffffaf;
+}
+
+@media screen and (max-width: 1012px) {
+  .card {
+    width: 40%;
+  }
+  .head {
+    width: 70%;
+    margin-top: 40px;
+    font-size: 2.6rem;
+    height: 7%;
+  }
+  .h2 {
+    width: 60%;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    height: 7%;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+  }
+  .head {
+    width: 80%;
+    font-size: 2rem;
+    height: 5%;
+  }
+  .h2 {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 1.9rem;
+    height: 5%;
+    margin-bottom: 15px;
+  }
 }
