@@ -48,19 +48,10 @@ body {
   transform: scale(1.08);
   transition: all ease-in .3s;
   font-size: 3.5rem;
-  animation: samiscool .5s;
+  animation: backgroundeffect .5s;
 }
 
-@keyframes iamcooler{
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0%);
-    }
-  }
-
-@keyframes samiscool{
+@keyframes backgroundeffect{
     0%     {background-color:rgb(255, 22, 22);}
     25%     {background-color:rgb(235, 0, 0);}
     50.0%  {background-color:#ac0000;}
