@@ -132,6 +132,7 @@ body {
     font-size: 2.6rem;
     height: 7%;
   }
+
  .head:hover{
   border: none;
   background: #000000;
@@ -149,6 +150,11 @@ body {
     font-size: 2.5rem;
     height: 7%;
   }
+
+  .card:hover{
+    transform: scale(1.04)
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -167,7 +173,7 @@ body {
     background: #000000;
     color: rgb(255, 255, 255);
     font-size: 220%;
-    height: 6%;
+    height: 6.75%;
     position: relative;
     box-sizing: border-box;
     transition: all 500ms ease; 
@@ -179,5 +185,10 @@ body {
     font-size: 1.9rem;
     height: 5%;
     margin-bottom: 15px;
+  }
+
+  .card:hover{
+    transform: scale(1.03)
+
   }
 }
