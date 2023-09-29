@@ -49,6 +49,7 @@ body {
   transition: all ease-in .3s;
   font-size: 3.5rem;
   animation: backgroundeffect .5s;
+  border: #ffffff solid 1px;
 }
 
 @keyframes backgroundeffect{
@@ -61,8 +62,16 @@ body {
 
 
 .head:hover{
-  transform: scale(1.08);
-  transition: all ease-in-out .3s;
+  border: none;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 400%;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+  height: 9.5%;
 }
 
 .card-title {
@@ -88,10 +97,10 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 75%;
-  height: 9%;
+  height: 8%;
   text-align: center;
   margin: 1% auto;
-  font-size: 400%;
+  font-size: 350%;
   color: rgb(255, 255, 255);
   border: 3px solid rgba(177, 0, 0, 0.503);
   background-color: #00000098;
@@ -123,6 +132,17 @@ body {
     font-size: 2.6rem;
     height: 7%;
   }
+ .head:hover{
+  border: none;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 220%;
+  height: 6%;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+}
+
   .h2 {
     width: 60%;
     margin-top: 30px;
